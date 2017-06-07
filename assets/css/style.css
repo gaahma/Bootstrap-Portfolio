@@ -17,6 +17,9 @@ body {
 
 #content {
 	padding-bottom: 100px;  /* Height of footer + some extra*/
+	font-family: Helvetica, "Times New Roman", serif, sans-serif;
+	font-size: large;
+
 }
 
 #about-me {
@@ -51,9 +54,18 @@ body {
 }
 
 
+.color-grey {
+	background-color: #dadada;
+}
 
+.bottom-margin {
+	margin-bottom: 5%;
+}
 
-
+.styled-button {
+	color: #fff;
+	background-color: #222;
+}
 
 
 .project {
@@ -62,15 +74,21 @@ body {
 	height: 100%;
 	width: 100%;
 	text-decoration: none;
-	color: #222;
+	color: #eee;
 	position: relative;
 }
 
 .project-label {
-	padding: 10px 10px;
-	background-color: #efefef;
+	padding: 2% 2%;
+	background-color: #222;
 	text-align: center;
 	width: 100%;
 	position: absolute;
-	bottom: 15px;	
+	bottom: 10%;	
+	font-size: small !important;
+}
+
+@media screen and (max-width: 640px){
+
+
 }
