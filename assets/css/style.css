@@ -78,6 +78,10 @@ body {
 	position: relative;
 }
 
+.project-link {
+	margin-bottom: 10%;
+}
+
 .project-label {
 	padding: 2% 2%;
 	background-color: #222;
